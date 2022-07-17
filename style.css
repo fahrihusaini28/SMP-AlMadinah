@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+    background-color: darkgray;
+}
+.header{
+    background-color: white;
+    text-align: center;
+    padding: 5% 0;
+    color: rgb(8, 168, 62);
+}
+
+.header img{
+    width: 20%;
+    padding-bottom: 5%;
+}
+
+.header h1{
+    font-size: 100px;
+}
+
+.header h2{
+    font-size: 100px;
+}
+
+.nav{
+    background-color: rgb(8, 168, 62);
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.nav a:hover{
+    background-color: white;
+    color: rgb(8, 168, 62);
+}
+
+.main:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section{
+    float: left;
+    width: 70%;
+}
+
+.article{
+    margin: 15px;
+    padding: 20px;
+    background-color: white;
+}
+
+.article ol{
+    padding: 0 15px;
+}
+
+.galeri td img{
+    width: 100%;
+}
+
+.video{
+    width: 100%;
+}
+
+.audio{
+    width: 50%;
+}
+
+.sidebar{
+    color: black;
+    float: right;
+    width: 30%;
+}
+
+.sidebar img{
+    width: 80%;
+    padding: 10px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .nav a {
+      float: none;
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section, .sidebar {   
+      width: 100%;
+      padding: 0;
+    }
+}
